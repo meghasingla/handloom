@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*Route::get('/', function () {
+    return view('index');
+});*/
+Route::view('/', 'index')->name('home');
+Route::view('shortcodes', 'shortcodes')->name('shortcodes');
+Route::view('contact', 'contact')->name('contact');
+Route::view('about', 'about')->name('about');
+Route::view('blog', 'blog')->name('blog');
+
+
+Route::view('/404', '404')->name('404');
+Route::view('services', 'services')->name('services');

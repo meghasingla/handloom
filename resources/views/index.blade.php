@@ -41,12 +41,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="head-nav">
 				<span class="menu"> </span>
 				<ul>
-					<li class="active"><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="services.html">SERVICES</a></li>
-					<li><a href="404.html">PRODUCTS</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="contact.html">CONTACTS</a></li>
+					<li class="active"><a href="#">HOME</a></li>
+					<li><a href="{{ route('about')}}">ABOUT</a></li>
+					<li><a href="{{ route('services')}}">SERVICES</a></li>
+					<li><a href="{{ route('404')}}">PRODUCTS</a></li>
+					<li><a href="{{ route('blog')}}">BLOG</a></li>
+					<li><a href="{{ route('contact')}}">CONTACTS</a></li>
 					<div class="clearfix"> </div>
 				</ul>
 				</div>
